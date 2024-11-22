@@ -1,0 +1,22 @@
+{
+  "name": "template-server",
+  "version": "1.0.0",
+  "description": "server for next-js-template",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/HyejinKwon-Devloper/template-server.git"
+  },
+  "author": "hyejin kwon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HyejinKwon-Devloper/template-server/issues"
+  },
+  "homepage": "https://github.com/HyejinKwon-Devloper/template-server#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
