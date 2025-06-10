@@ -4,7 +4,8 @@
   "description": "server for next-js-template",
   "main": "app.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "start": "nodemon  --env-file=.env app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/HyejinKwon-Devloper/template-server#readme",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "mysql": "^2.18.1"
   }
 }
